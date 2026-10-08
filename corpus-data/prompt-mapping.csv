@@ -1,0 +1,4 @@
+BOOK_FETCH,http,get
+BOOK_WORK,http,get
+BOOK_AUTHOR,http,get
+BOOK_AUTHOR_WORKS,http,get

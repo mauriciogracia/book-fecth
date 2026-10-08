@@ -1,0 +1,40 @@
+"Find the book tolkien hobbit", BOOK_FETCH
+"Search for mark huckleberry", BOOK_FETCH
+"Look up twilight meyer", BOOK_FETCH
+"Find dickens tale two cities", BOOK_FETCH
+"Which book is austen bennet", BOOK_FETCH
+"Search books about tolkien hobbit illustrated deluxe 1937", BOOK_FETCH
+"Can you find the book called Dune", BOOK_FETCH
+"Look for a novel by Gabriel Garcia Marquez", BOOK_FETCH
+"Please search the title 1984 orwell", BOOK_FETCH
+"I need the book harry potter stone", BOOK_FETCH
+"Get details of work OL45883W", BOOK_WORK
+"Show the work OL27448W", BOOK_WORK
+"Fetch work info for OL82563W", BOOK_WORK
+"Open the work record OL45804W", BOOK_WORK
+"Give me the description of work OL1168083W", BOOK_WORK
+"Load work details OL66554W", BOOK_WORK
+"Retrieve the canonical work OL453657W", BOOK_WORK
+"Can you get the work OL17930368W", BOOK_WORK
+"Please show subjects of work OL15413843W", BOOK_WORK
+"What does work OL20600W contain", BOOK_WORK
+"Get author OL26320A", BOOK_AUTHOR
+"Show info about author OL24638A", BOOK_AUTHOR
+"Fetch author details OL21594A", BOOK_AUTHOR
+"Who is author OL23919A", BOOK_AUTHOR
+"Give me the bio of author OL1394244A", BOOK_AUTHOR
+"Load author profile OL2162284A", BOOK_AUTHOR
+"Retrieve author record OL118077A", BOOK_AUTHOR
+"Can you get author OL31574A", BOOK_AUTHOR
+"Please show birth date of author OL19981A", BOOK_AUTHOR
+"Open author page OL9388A", BOOK_AUTHOR
+"List works by author OL26320A", BOOK_AUTHOR_WORKS
+"Show all books written by OL24638A", BOOK_AUTHOR_WORKS
+"Get the works of author OL21594A", BOOK_AUTHOR_WORKS
+"What books did OL23919A write", BOOK_AUTHOR_WORKS
+"Fetch top works for author OL1394244A", BOOK_AUTHOR_WORKS
+"Give me the bibliography of OL2162284A", BOOK_AUTHOR_WORKS
+"Retrieve titles published by author OL118077A", BOOK_AUTHOR_WORKS
+"Can you list the novels of OL31574A", BOOK_AUTHOR_WORKS
+"Please show every work from author OL19981A", BOOK_AUTHOR_WORKS
+"Load author works OL9388A", BOOK_AUTHOR_WORKS
