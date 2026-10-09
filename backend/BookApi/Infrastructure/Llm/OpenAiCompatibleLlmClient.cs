@@ -6,7 +6,7 @@ using System.Text.Json.Serialization;
 namespace BookApi.Infrastructure.Llm;
 
 /// <summary>Shared POST {BaseUrl}chat/completions implementation. Adapters only supply their options.</summary>
-public abstract class OpenAiCompatibleLlmClient : ILlmClient
+public abstract class OpenAiCompatibleLlmClient : InterfaceLlmClient
 {
     private static readonly JsonSerializerOptions Json = new()
     {
