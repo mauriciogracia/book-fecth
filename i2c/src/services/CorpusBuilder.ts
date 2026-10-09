@@ -4,7 +4,7 @@ import { CorpusBuildResponseInterface } from "../interfaces/CorpusBuildResponseI
 import { CorpusInterface } from "../interfaces/CorpusInterface";
 import { CorpusIntentInterface } from "../interfaces/CorpusIntentInterface";
 import { I2cService } from "./I2cService";
-import { InternalCommandCorpus } from "./InternalCommandCorpus";
+import { BookApiActionCorpus } from "./BookApiActionCorpus";
 
 const LANG_PATTERN = /^([a-z]{2})(?:[-_.]|$)/i; // en-files.csv, es_files.csv, en.csv
 const HEADER_PATTERN = /^\s*"?(utterance|text|prompt)"?\s*,\s*"?intent"?\s*$/i;
@@ -46,7 +46,10 @@ export class CorpusBuilder {
         corpora.set(lang, corpus);
       }
 
-      const content = await fs.readFile(path.join(this.samplesPath, file), "utf-8");
+      const content = await fs.readFile(
+        path.join(this.samplesPath, file),
+        "utf-8",
+      );
 
       for (const line of this.readLines(content)) {
         if (HEADER_PATTERN.test(line)) continue;
@@ -59,25 +62,34 @@ export class CorpusBuilder {
         const intentKey = `${lang}:${intent}`;
         let entry = intentIndex.get(intentKey);
         if (!entry) {
-          // An intent named after an internal command (INOU_CMD_*) maps to it without a prompt-mapping.csv row
-          const command = mappings.get(intent) ?? InternalCommandCorpus.commandOf(intent);
+          // An intent named after a BookApiCommand (BOOK_*) maps to its endpoint without a prompt-mapping.csv row
+          const command = mappings.get(intent) ?? this.bookAnswer(intent);
           if (!command && intent !== I2cService.NONE_INTENT) {
-            console.warn(`[CorpusBuilder] No mapping for intent "${intent}" (${lang})`);
+            console.warn(
+              `[CorpusBuilder] No mapping for intent "${intent}" (${lang})`,
+            );
           }
-          if (command && !InternalCommandCorpus.isInternal(command)) {
-            console.warn(`[CorpusBuilder] Intent "${intent}" maps to "${command}", which is no internal command: vsce ignores it`);
+          if (command && !BookApiActionCorpus.isBook(intent)) {
+            console.warn(
+              `[CorpusBuilder] Intent "${intent}" maps to "${command}", which is no BookApiCommand: BookApiAction cannot run it`,
+            );
           }
           entry = { intent, utterances: [], answers: command ? [command] : [] };
           intentIndex.set(intentKey, entry);
           corpus.data.push(entry);
         }
-        this.addUtterance(entry, `${intentKey}:${utterance.toLowerCase()}`, utterance, seen);
+        this.addUtterance(
+          entry,
+          `${intentKey}:${utterance.toLowerCase()}`,
+          utterance,
+          seen,
+        );
       }
     }
 
-    // Every runnable internal command, from its catalog entry (its spellings), in each language
+    // Every BookApiCommand, from the enum (its spellings), in each language
     for (const corpus of corpora.values()) {
-      for (const catalogIntent of InternalCommandCorpus.intents()) {
+      for (const catalogIntent of BookApiActionCorpus.intents()) {
         const intentKey = `${corpus.locale}:${catalogIntent.intent}`;
         let entry = intentIndex.get(intentKey);
         if (!entry) {
@@ -86,7 +98,12 @@ export class CorpusBuilder {
           corpus.data.push(entry);
         }
         for (const utterance of catalogIntent.utterances) {
-          this.addUtterance(entry, `${intentKey}:${utterance.toLowerCase()}`, utterance, seen);
+          this.addUtterance(
+            entry,
+            `${intentKey}:${utterance.toLowerCase()}`,
+            utterance,
+            seen,
+          );
         }
       }
     }
@@ -94,7 +111,11 @@ export class CorpusBuilder {
     const result = Array.from(corpora.values());
 
     await fs.mkdir(path.dirname(this.outputPath), { recursive: true });
-    await fs.writeFile(this.outputPath, JSON.stringify(result, null, 2), "utf-8");
+    await fs.writeFile(
+      this.outputPath,
+      JSON.stringify(result, null, 2),
+      "utf-8",
+    );
 
     return {
       success: true,
@@ -103,7 +124,20 @@ export class CorpusBuilder {
     };
   }
 
-  private addUtterance(entry: CorpusIntentInterface, dupKey: string, utterance: string, seen: Set<string>): void {
+  /** BOOK_WORK -> "GET /works/{work_id}.json"; undefined for any other intent. */
+  private bookAnswer(intent: string): string | undefined {
+    const command = BookApiActionCorpus.commandOf(intent);
+    return command === undefined
+      ? undefined
+      : `GET ${BookApiActionCorpus.endpointOf(command)}`;
+  }
+
+  private addUtterance(
+    entry: CorpusIntentInterface,
+    dupKey: string,
+    utterance: string,
+    seen: Set<string>,
+  ): void {
     if (seen.has(dupKey)) return;
     seen.add(dupKey);
     entry.utterances.push(utterance);
@@ -131,7 +165,10 @@ export class CorpusBuilder {
   private splitLast(line: string): [string, string] | null {
     const idx = line.lastIndexOf(",");
     if (idx === -1) return null;
-    return [this.unquote(line.substring(0, idx)), this.unquote(line.substring(idx + 1))];
+    return [
+      this.unquote(line.substring(0, idx)),
+      this.unquote(line.substring(idx + 1)),
+    ];
   }
 
   /** Trims, strips surrounding quotes and unescapes CSV doubled quotes (""). */

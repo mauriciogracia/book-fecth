@@ -1,0 +1,130 @@
+"Find the book tolkien hobbit", BOOK_FETCH
+"Search for mark huckleberry", BOOK_FETCH
+"Look up twilight meyer", BOOK_FETCH
+"Find dickens tale two cities", BOOK_FETCH
+"Which book is austen bennet", BOOK_FETCH
+"Search tolkien hobbit illustrated deluxe 1937", BOOK_FETCH
+"Can you find the book called Dune", BOOK_FETCH
+"Look for a novel by Gabriel Garcia Marquez", BOOK_FETCH
+"Please search the title 1984 orwell", BOOK_FETCH
+"I need the book harry potter stone", BOOK_FETCH
+"Find a book about a whale captain ahab", BOOK_FETCH
+"Search the novel pride and prejudice", BOOK_FETCH
+"Which book has frodo and gandalf", BOOK_FETCH
+"Look up the book war and peace tolstoy", BOOK_FETCH
+"Find me the title the great gatsby", BOOK_FETCH
+"Search books named one hundred years of solitude", BOOK_FETCH
+"What book is sherlock holmes baskervilles", BOOK_FETCH
+"Find stephen king it", BOOK_FETCH
+"Search for the book little prince saint exupery", BOOK_FETCH
+"Look for the novel don quixote cervantes", BOOK_FETCH
+"I'm looking for a book about hobbits", BOOK_FETCH
+"Help me find the book with atticus finch", BOOK_FETCH
+"Search title brave new world huxley", BOOK_FETCH
+"Find the book the road mccarthy", BOOK_FETCH
+"Which novel is jane eyre bronte", BOOK_FETCH
+"Look up catcher in the rye salinger", BOOK_FETCH
+"Find a book called sapiens harari", BOOK_FETCH
+"Search for the book frankenstein shelley", BOOK_FETCH
+"Find the book moby dick", BOOK_FETCH
+"Search dracula bram stoker", BOOK_FETCH
+"Get details of work OL45883W", BOOK_WORK
+"Show the work OL27448W", BOOK_WORK
+"Fetch work info for OL82563W", BOOK_WORK
+"Open the work record OL45804W", BOOK_WORK
+"Give me the description of work OL1168083W", BOOK_WORK
+"Load work details OL66554W", BOOK_WORK
+"Retrieve the canonical work OL453657W", BOOK_WORK
+"Can you get the work OL17930368W", BOOK_WORK
+"Please show subjects of work OL15413843W", BOOK_WORK
+"What does work OL20600W contain", BOOK_WORK
+"Describe the work OL45883W", BOOK_WORK
+"Show me the work record OL27448W", BOOK_WORK
+"Get the work OL82563W description", BOOK_WORK
+"Work OL45804W details please", BOOK_WORK
+"Fetch the book work OL1168083W", BOOK_WORK
+"Open work OL66554W", BOOK_WORK
+"Display the work OL453657W", BOOK_WORK
+"What is work OL17930368W about", BOOK_WORK
+"Get work summary OL15413843W", BOOK_WORK
+"Load the work OL20600W", BOOK_WORK
+"Get author OL26320A", BOOK_AUTHOR
+"Show info about author OL23919A", BOOK_AUTHOR
+"Fetch author details OL118077A", BOOK_AUTHOR
+"Who is author OL9388A", BOOK_AUTHOR
+"Give me the bio of author OL21594A", BOOK_AUTHOR
+"Load author profile OL2162284A", BOOK_AUTHOR
+"Retrieve author record OL19981A", BOOK_AUTHOR
+"Can you get author OL24638A", BOOK_AUTHOR
+"Please show birth date of author OL1394244A", BOOK_AUTHOR
+"Open author page OL31574A", BOOK_AUTHOR
+"Tell me about the author OL26320A", BOOK_AUTHOR
+"Show the author OL23919A", BOOK_AUTHOR
+"Get the biography of OL118077A", BOOK_AUTHOR
+"Author OL9388A profile please", BOOK_AUTHOR
+"Fetch the author OL21594A", BOOK_AUTHOR
+"Who wrote as author OL2162284A", BOOK_AUTHOR
+"Display author OL19981A", BOOK_AUTHOR
+"Describe the author OL24638A", BOOK_AUTHOR
+"Get author info OL1394244A", BOOK_AUTHOR
+"Load the author OL31574A", BOOK_AUTHOR
+"List works by author OL26320A", BOOK_AUTHOR_WORKS
+"Show all books written by OL23919A", BOOK_AUTHOR_WORKS
+"Get the works of author OL118077A", BOOK_AUTHOR_WORKS
+"What books did OL9388A write", BOOK_AUTHOR_WORKS
+"Fetch top works for author OL21594A", BOOK_AUTHOR_WORKS
+"Give me the bibliography of OL2162284A", BOOK_AUTHOR_WORKS
+"Retrieve titles published by author OL19981A", BOOK_AUTHOR_WORKS
+"Can you list the novels of OL24638A", BOOK_AUTHOR_WORKS
+"Please show every work from author OL1394244A", BOOK_AUTHOR_WORKS
+"Load author works OL31574A", BOOK_AUTHOR_WORKS
+"List the books of author OL26320A", BOOK_AUTHOR_WORKS
+"Show works by OL23919A", BOOK_AUTHOR_WORKS
+"Get all titles by author OL118077A", BOOK_AUTHOR_WORKS
+"Which works did author OL9388A write", BOOK_AUTHOR_WORKS
+"Fetch the books written by OL21594A", BOOK_AUTHOR_WORKS
+"Display the works of author OL2162284A", BOOK_AUTHOR_WORKS
+"List all novels by OL19981A", BOOK_AUTHOR_WORKS
+"Show the bibliography of author OL24638A", BOOK_AUTHOR_WORKS
+"Get books by author OL1394244A", BOOK_AUTHOR_WORKS
+"Load the works written by OL31574A", BOOK_AUTHOR_WORKS
+"Is there a book called the hunger games", BOOK_FETCH
+"Search for orwell animal farm", BOOK_FETCH
+"Find the book about a boy wizard", BOOK_FETCH
+"Look up lord of the rings fellowship", BOOK_FETCH
+"Find the novel the alchemist coelho", BOOK_FETCH
+"Search a book by isabel allende", BOOK_FETCH
+"Which book is gatsby fitzgerald", BOOK_FETCH
+"Find kafka metamorphosis", BOOK_FETCH
+"Look for the book the hobbit 1937 edition", BOOK_FETCH
+"Search the title crime and punishment", BOOK_FETCH
+"Show work details for OL45883W", BOOK_WORK
+"I want the work OL27448W", BOOK_WORK
+"Fetch the canonical work record OL82563W", BOOK_WORK
+"Give me work OL45804W", BOOK_WORK
+"What are the subjects of work OL1168083W", BOOK_WORK
+"Read the work entry OL66554W", BOOK_WORK
+"Get the first publish date of work OL453657W", BOOK_WORK
+"Show the covers of work OL17930368W", BOOK_WORK
+"Pull the work OL15413843W", BOOK_WORK
+"Info on work OL20600W", BOOK_WORK
+"Show the author record OL26320A", BOOK_AUTHOR
+"I want author OL24638A", BOOK_AUTHOR
+"Give me author OL21594A", BOOK_AUTHOR
+"What is the name of author OL23919A", BOOK_AUTHOR
+"When was author OL1394244A born", BOOK_AUTHOR
+"Read the author entry OL2162284A", BOOK_AUTHOR
+"Pull the author OL118077A", BOOK_AUTHOR
+"Info on author OL31574A", BOOK_AUTHOR
+"Show author bio OL19981A", BOOK_AUTHOR
+"Author details for OL9388A", BOOK_AUTHOR
+"Show the works of OL26320A", BOOK_AUTHOR_WORKS
+"I want the books of author OL24638A", BOOK_AUTHOR_WORKS
+"Give me works by OL21594A", BOOK_AUTHOR_WORKS
+"What titles has author OL23919A written", BOOK_AUTHOR_WORKS
+"Top books by author OL1394244A", BOOK_AUTHOR_WORKS
+"Read the works list of OL2162284A", BOOK_AUTHOR_WORKS
+"Pull the works of author OL118077A", BOOK_AUTHOR_WORKS
+"Books written by author OL31574A", BOOK_AUTHOR_WORKS
+"Show author works list OL19981A", BOOK_AUTHOR_WORKS
+"Works list for author OL9388A", BOOK_AUTHOR_WORKS

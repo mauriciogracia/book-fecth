@@ -1,0 +1,130 @@
+"Busca el libro tolkien hobbit", BOOK_FETCH
+"Buscar mark huckleberry", BOOK_FETCH
+"Encuentra crepúsculo meyer", BOOK_FETCH
+"Busca dickens historia de dos ciudades", BOOK_FETCH
+"Qué libro es austen bennet", BOOK_FETCH
+"Buscar tolkien hobbit ilustrado deluxe 1937", BOOK_FETCH
+"Puedes encontrar el libro llamado Dune", BOOK_FETCH
+"Busca una novela de Gabriel García Márquez", BOOK_FETCH
+"Por favor busca el título 1984 orwell", BOOK_FETCH
+"Necesito el libro harry potter piedra filosofal", BOOK_FETCH
+"Encuentra un libro sobre una ballena capitán ahab", BOOK_FETCH
+"Busca la novela orgullo y prejuicio", BOOK_FETCH
+"Qué libro tiene a frodo y gandalf", BOOK_FETCH
+"Busca el libro guerra y paz tolstoi", BOOK_FETCH
+"Encuéntrame el título el gran gatsby", BOOK_FETCH
+"Busca libros llamados cien años de soledad", BOOK_FETCH
+"Qué libro es sherlock holmes baskerville", BOOK_FETCH
+"Encuentra it de stephen king", BOOK_FETCH
+"Busca el libro el principito saint exupery", BOOK_FETCH
+"Busca la novela don quijote cervantes", BOOK_FETCH
+"Estoy buscando un libro sobre hobbits", BOOK_FETCH
+"Ayúdame a encontrar el libro de atticus finch", BOOK_FETCH
+"Busca el título un mundo feliz huxley", BOOK_FETCH
+"Encuentra el libro la carretera mccarthy", BOOK_FETCH
+"Qué novela es jane eyre bronte", BOOK_FETCH
+"Busca el guardián entre el centeno salinger", BOOK_FETCH
+"Encuentra un libro llamado sapiens harari", BOOK_FETCH
+"Busca el libro frankenstein shelley", BOOK_FETCH
+"Encuentra el libro moby dick", BOOK_FETCH
+"Busca drácula bram stoker", BOOK_FETCH
+"Dame los detalles de la obra OL45883W", BOOK_WORK
+"Muestra la obra OL27448W", BOOK_WORK
+"Trae la información de la obra OL82563W", BOOK_WORK
+"Abre el registro de la obra OL45804W", BOOK_WORK
+"Dame la descripción de la obra OL1168083W", BOOK_WORK
+"Carga los detalles de la obra OL66554W", BOOK_WORK
+"Obtén la obra canónica OL453657W", BOOK_WORK
+"Puedes traer la obra OL17930368W", BOOK_WORK
+"Por favor muestra los temas de la obra OL15413843W", BOOK_WORK
+"Qué contiene la obra OL20600W", BOOK_WORK
+"Describe la obra OL45883W", BOOK_WORK
+"Muéstrame el registro de la obra OL27448W", BOOK_WORK
+"Obtén la descripción de la obra OL82563W", BOOK_WORK
+"Detalles de la obra OL45804W por favor", BOOK_WORK
+"Trae la obra OL1168083W", BOOK_WORK
+"Abre la obra OL66554W", BOOK_WORK
+"Despliega la obra OL453657W", BOOK_WORK
+"De qué trata la obra OL17930368W", BOOK_WORK
+"Dame el resumen de la obra OL15413843W", BOOK_WORK
+"Carga la obra OL20600W", BOOK_WORK
+"Obtén el autor OL26320A", BOOK_AUTHOR
+"Muestra información del autor OL23919A", BOOK_AUTHOR
+"Trae los detalles del autor OL118077A", BOOK_AUTHOR
+"Quién es el autor OL9388A", BOOK_AUTHOR
+"Dame la biografía del autor OL21594A", BOOK_AUTHOR
+"Carga el perfil del autor OL2162284A", BOOK_AUTHOR
+"Obtén el registro del autor OL19981A", BOOK_AUTHOR
+"Puedes traer el autor OL24638A", BOOK_AUTHOR
+"Por favor muestra la fecha de nacimiento del autor OL1394244A", BOOK_AUTHOR
+"Abre la página del autor OL31574A", BOOK_AUTHOR
+"Háblame del autor OL26320A", BOOK_AUTHOR
+"Muestra el autor OL23919A", BOOK_AUTHOR
+"Dame la bio de OL118077A", BOOK_AUTHOR
+"Perfil del autor OL9388A por favor", BOOK_AUTHOR
+"Trae al autor OL21594A", BOOK_AUTHOR
+"Información del autor OL2162284A", BOOK_AUTHOR
+"Despliega el autor OL19981A", BOOK_AUTHOR
+"Describe al autor OL24638A", BOOK_AUTHOR
+"Dame los datos del autor OL1394244A", BOOK_AUTHOR
+"Carga el autor OL31574A", BOOK_AUTHOR
+"Lista las obras del autor OL26320A", BOOK_AUTHOR_WORKS
+"Muestra todos los libros escritos por OL23919A", BOOK_AUTHOR_WORKS
+"Obtén las obras del autor OL118077A", BOOK_AUTHOR_WORKS
+"Qué libros escribió OL9388A", BOOK_AUTHOR_WORKS
+"Trae las obras principales del autor OL21594A", BOOK_AUTHOR_WORKS
+"Dame la bibliografía de OL2162284A", BOOK_AUTHOR_WORKS
+"Obtén los títulos publicados por el autor OL19981A", BOOK_AUTHOR_WORKS
+"Puedes listar las novelas de OL24638A", BOOK_AUTHOR_WORKS
+"Por favor muestra cada obra del autor OL1394244A", BOOK_AUTHOR_WORKS
+"Carga las obras del autor OL31574A", BOOK_AUTHOR_WORKS
+"Lista los libros del autor OL26320A", BOOK_AUTHOR_WORKS
+"Muestra las obras de OL23919A", BOOK_AUTHOR_WORKS
+"Obtén todos los títulos del autor OL118077A", BOOK_AUTHOR_WORKS
+"Qué obras escribió el autor OL9388A", BOOK_AUTHOR_WORKS
+"Trae los libros escritos por OL21594A", BOOK_AUTHOR_WORKS
+"Despliega las obras del autor OL2162284A", BOOK_AUTHOR_WORKS
+"Lista todas las novelas de OL19981A", BOOK_AUTHOR_WORKS
+"Muestra la bibliografía del autor OL24638A", BOOK_AUTHOR_WORKS
+"Dame los libros del autor OL1394244A", BOOK_AUTHOR_WORKS
+"Carga las obras escritas por OL31574A", BOOK_AUTHOR_WORKS
+"Hay un libro llamado los juegos del hambre", BOOK_FETCH
+"Busca orwell rebelión en la granja", BOOK_FETCH
+"Encuentra el libro del niño mago", BOOK_FETCH
+"Busca el señor de los anillos la comunidad", BOOK_FETCH
+"Encuentra la novela el alquimista coelho", BOOK_FETCH
+"Busca un libro de isabel allende", BOOK_FETCH
+"Qué libro es gatsby fitzgerald", BOOK_FETCH
+"Encuentra la metamorfosis kafka", BOOK_FETCH
+"Busca el libro el hobbit edición 1937", BOOK_FETCH
+"Busca el título crimen y castigo", BOOK_FETCH
+"Muestra los detalles de la obra OL45883W", BOOK_WORK
+"Quiero la obra OL27448W", BOOK_WORK
+"Trae el registro canónico de la obra OL82563W", BOOK_WORK
+"Dame la obra OL45804W", BOOK_WORK
+"Cuáles son los temas de la obra OL1168083W", BOOK_WORK
+"Lee la entrada de la obra OL66554W", BOOK_WORK
+"Dame la fecha de primera publicación de la obra OL453657W", BOOK_WORK
+"Muestra las portadas de la obra OL17930368W", BOOK_WORK
+"Consulta la obra OL15413843W", BOOK_WORK
+"Info de la obra OL20600W", BOOK_WORK
+"Muestra el registro del autor OL26320A", BOOK_AUTHOR
+"Quiero el autor OL24638A", BOOK_AUTHOR
+"Dame el autor OL21594A", BOOK_AUTHOR
+"Cuál es el nombre del autor OL23919A", BOOK_AUTHOR
+"Cuándo nació el autor OL1394244A", BOOK_AUTHOR
+"Lee la entrada del autor OL2162284A", BOOK_AUTHOR
+"Consulta el autor OL118077A", BOOK_AUTHOR
+"Info del autor OL31574A", BOOK_AUTHOR
+"Muestra la bio del autor OL19981A", BOOK_AUTHOR
+"Datos del autor OL9388A", BOOK_AUTHOR
+"Muestra las obras de OL26320A", BOOK_AUTHOR_WORKS
+"Quiero los libros del autor OL24638A", BOOK_AUTHOR_WORKS
+"Dame las obras de OL21594A", BOOK_AUTHOR_WORKS
+"Qué títulos ha escrito el autor OL23919A", BOOK_AUTHOR_WORKS
+"Libros principales del autor OL1394244A", BOOK_AUTHOR_WORKS
+"Lee la lista de obras de OL2162284A", BOOK_AUTHOR_WORKS
+"Consulta las obras del autor OL118077A", BOOK_AUTHOR_WORKS
+"Libros escritos por el autor OL31574A", BOOK_AUTHOR_WORKS
+"Muestra la lista de obras del autor OL19981A", BOOK_AUTHOR_WORKS
+"Lista de obras del autor OL9388A", BOOK_AUTHOR_WORKS
